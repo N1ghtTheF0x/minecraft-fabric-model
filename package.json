@@ -14,5 +14,9 @@
     "blockbench-types": "latest",
     "tsdown": "latest",
     "typescript": "latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/N1ghtTheF0x/minecraft-fabric-model.git"
   }
 }

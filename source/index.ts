@@ -9,6 +9,8 @@ BBPlugin.register(NAME,{
     version: VERSION,
     variant: "desktop",
     tags: ["Minecraft: Java Edition"],
+    repository: "https://github.com/N1ghtTheF0x/minecraft-fabric-model",
+    bug_tracker: "https://github.com/N1ghtTheF0x/minecraft-fabric-model/issues",
     onload()
     {
         loadEntityCodec()
