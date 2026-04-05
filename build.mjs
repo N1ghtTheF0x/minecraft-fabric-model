@@ -18,5 +18,8 @@ await build({
         DESCRIPTION: JSON.stringify(PKG.description),
         VERSION: JSON.stringify(PKG.version),
         TITLE: JSON.stringify(TITLE)
+    },
+    loader: {
+        ".md": "text"
     }
 })

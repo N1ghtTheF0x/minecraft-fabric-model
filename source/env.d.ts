@@ -6,6 +6,12 @@ declare module "*.txt"
     export default content
 }
 
+declare module "*.md"
+{
+    const content: string
+    export default content
+}
+
 declare const NAME: string
 declare const DESCRIPTION: string
 declare const AUTHOR: string
