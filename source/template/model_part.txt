@@ -1,0 +1,2 @@
+?(has_no_parent)%(bone) = root.getChild("%(bone)");
+?(has_parent)%(bone) = %(parent).getChild("%(bone)");

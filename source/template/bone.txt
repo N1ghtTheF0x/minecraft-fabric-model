@@ -1,0 +1,5 @@
+?(has_no_parent)PartDefinition %(bone) = root.addOrReplaceChild("%(bone)", CubeListBuilder.create()
+?(has_parent)PartDefinition %(bone) = %(parent).addOrReplaceChild("%(bone)", CubeListBuilder.create()
+%(remove_n)%(cubes)
+?(has_rotation)%(remove_n), PartPose.offsetAndRotation(%(x), %(y), %(z), %(rx), %(ry), %(rz)));
+?(has_no_rotation)%(remove_n), PartPose.offset(%(x), %(y), %(z)));

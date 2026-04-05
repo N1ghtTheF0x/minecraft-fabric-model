@@ -1,0 +1,18 @@
+{
+  "name": "ntf_minecraft_mojang_model",
+  "version": "0.0.1",
+  "description": "Create mojang mapped models",
+  "scripts": {
+    "check": "tsc --noEmit",
+    "build": "node build.mjs"
+  },
+  "keywords": [],
+  "author": "N1ghtTheF0x",
+  "license": "ISC",
+  "packageManager": "pnpm@10.33.0",
+  "devDependencies": {
+    "blockbench-types": "latest",
+    "tsdown": "latest",
+    "typescript": "latest"
+  }
+}

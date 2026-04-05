@@ -1,0 +1,12 @@
+{
+    "include": ["source"],
+    "compilerOptions": {
+        "target": "es2020",
+        "module": "es2020",
+        "moduleDetection": "force",
+        "moduleResolution": "bundler",
+        "lib": ["ES2023","DOM"],
+        "types": ["blockbench-types"],
+        "strict": true
+    }
+}
